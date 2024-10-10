@@ -26,4 +26,38 @@ const myfunc = function(){
 }
 
 
-console.log(myObj);
+//console.log(myObj);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack ( Primitive ) , Heap ( Non Primitive )
+
+
+let myName = "Nish"
+
+let anothername = myName
+
+anothername = "Chay"
+
+
+//console.log(anothername);
+//console.log(myName);
+
+
+let user1 = {
+    email : "user@gmail",
+    upi: "user@iipl",
+}
+
+
+let user2 = user1
+
+user2.email = "Nishcom@"
+
+console.log(user1);
+console.log(user2);
+
+
+
